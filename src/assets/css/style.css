@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Inter:regular,500,600,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sen:700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.title {
+  @apply font-title font-bold tracking-tight leading-tight;
+}
+
+.btn {
+  @apply inline-flex items-center justify-center text-center font-title font-bold text-lg leading-snug text-black-23 py-4 px-12 bg-yellow-medium hover:bg-yellow-dark transition duration-300;
+}
+
+.lock {
+  @apply overflow-hidden touch-none;
+}
+
+.bg-img {
+  @apply absolute left-0 top-0 w-full h-full object-cover object-center;
+}
+
+.lock {
+  @apply overflow-hidden touch-none;
+}
